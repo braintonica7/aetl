@@ -1,0 +1,1154 @@
+html{
+  overflow: hidden;
+}
+.main-form > div{
+  display:inline-block;
+}
+.main-form .first_inline_input {
+  display: inline-block;
+  width: 48%;
+}
+
+.main-form .last_inline_input {
+  display: inline-block;
+  margin-left: 4%;
+  width: 48%;
+}
+
+.address_1 {
+  display: inline-block;
+  width: 49%;
+}
+
+.address_2 {
+  display: inline-block;
+  margin-left: 1%;
+  width: 49%;
+}
+
+.main-form .one_three_input {
+  display: inline-block;
+  width: 30%;
+}
+
+.main-form .two_three_input {
+  display: inline-block;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.main-form .last_three_input {
+  display: inline-block;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.main-form .start_twice_4_input {
+  display: inline-block;
+  margin-right: 1%;
+  width: 48%;
+}
+
+.main-form .start_thrice_4_input {
+  display: inline-block;
+  margin-right: 1%;
+  width: 73%;
+}
+
+.main-form .one_4_input {
+  display: inline-block;
+  width: 24%;
+}
+
+.main-form .two_4_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 24%;
+}
+
+.main-form .twice_4_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 49%;
+}
+
+.main-form .thrice_4_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 75%;
+}
+
+.main-form .three_4_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 24%;
+}
+
+.main-form .last_4_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 24%;
+}
+
+.main-form .one_5_input {
+  display: inline-block;
+  width: 19%;
+}
+
+.main-form .two_5_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 19%;
+}
+
+.main-form .three_5_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 19%;
+}
+
+.main-form .four_5_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 19%;
+}
+
+.main-form .last_5_input {
+  display: inline-block;
+  margin-left: 1%;
+  width: 19%;
+}
+
+
+.richtexteditor_input {
+
+  height: 223% !important;
+}
+
+.main-form .one_four_input {
+  display: inline-block;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.main-form .two_four_input {
+  display: inline-block;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.main-form .three_four_input {
+  display: inline-block;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.main-form .last_four_input {
+  display: inline-block;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.customtable {
+  width: 100%;
+  padding: "0px 3px 2px 16px !important";
+}
+
+.customtableTh {
+  width: 100%;
+  font-size: 8px !important;
+}
+
+.customInput {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.customdateInput {
+  width: "143px";
+  font-size: "12px";
+}
+
+.customtable1 {
+  width: "247%";
+  padding: "0px 3px 2px 16px !important";
+}
+
+.customtableTh1 {
+  width: "100%";
+  font-size: 8px !important;
+}
+
+.customInput1 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.customdateInput1 {
+  width: "143px";
+  font-size: "12px";
+}
+
+.cancel_button {
+  margin-left: 20;
+  margin-right: 20;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btnparent {
+  flex: 1;
+}
+
+.layout .MuiTypography-body2 {
+  font-family: Lato "Roboto" "Helvetica" "Arial" sans-serif;
+}
+
+.layout .MuiInputBase-input {
+  font-family: Lato "Roboto" "Helvetica" "Arial" sans-serif;
+}
+
+.layout .MuiTab-root {
+  font-family: Lato "Roboto" "Helvetica" "Arial" sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  margin: 0px;
+}
+
+.ra-rich-text-input {
+  min-height: 200px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.MuiDrawer-root.MuiDrawer-docked {
+  background-color: #02384d;
+}
+
+.MuiDivider-root {
+  background-color: #fff !important;
+}
+
+.ra-input {
+  margin: 5px 0px;
+}
+
+.left-main-menu .MuiMenuItem-root {
+  color: #fff !important;
+  text-transform: none;
+  padding: 10px 15px !important;
+  border-top: 1px solid #999 !important;
+  border-bottom: 0px solid #efefef;
+  font-size: 14px !important;
+}
+
+.left-main-menu .MuiMenuItem-root:hover {
+  background-color: #20a8d8 !important;
+  color: #000 !important;
+}
+
+.left-main-menu .MuiMenuItem-root .MuiTypography-colorTextSecondary {
+  color: #fff !important;
+  text-transform: none;
+}
+
+.left-main-menu .MuiListItemIcon-root {
+  color: #ccc !important;
+  text-transform: none;
+}
+
+.MuiMenuItem-dense {
+  color: #fff !important;
+  text-transform: none;
+  padding: 10px 15px !important;
+  border-top: 1px solid #999 !important;
+  border-bottom: 0px solid #efefef;
+}
+
+.MuiOutlinedInput-inputMultiline {
+  min-height: 70px;
+}
+
+.MuiOutlinedInput-multiline {
+  min-height: 70px;
+}
+
+.MuiMenuItem-dense:hover {
+  background-color: #20a8d8 !important;
+  color: #000 !important;
+}
+
+.MuiMenuItem-dense .MuiTypography-colorTextSecondary {
+  color: #fff !important;
+  text-transform: none;
+}
+
+.MuiListItemIcon-root {
+  color: #ccc !important;
+  text-transform: none;
+}
+
+.search-container {}
+
+.role-details .accordion__button {
+  background-color: #eee;
+  padding: 10px 0px;
+  display: flex;
+}
+
+.header-parent {
+  display: flex;
+}
+
+.accord-header {
+  flex-grow: 1;
+}
+
+.right-toggle {
+  background-color: #eee;
+}
+
+.item-caption {
+  font-weight: bold;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.right-option {
+  margin-top: 5px;
+}
+
+.accordion__button:before {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.employee-report {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.role-details .accordion__button {
+  width: auto;
+}
+
+.report-view {
+  width: 100%;
+  border: 0px;
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+
+.MuiTab-root {
+  text-transform: none !important;
+}
+
+.address-field-parent>div {
+  display: inline-block;
+  width: 24%;
+}
+
+.address-field-parent2>div {
+  display: inline-block;
+  width: 24%;
+  padding-right: 5px;
+}
+
+.edit-page .MuiTab-root {
+  min-width: 85px;
+  padding: 6px 10px;
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+  opacity: 1;
+  background-color: beige;
+}
+
+.MuiFormControl-root.ra-rich-text-input>.MuiFormLabel-root {
+  padding: 10px;
+}
+
+.MuiFormControl-root.ra-rich-text-input .ql-toolbar.ql-snow {
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.MuiFormControl-root.ra-rich-text-input .outlined.ql-container.ql-snow {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.Layout-content-4 .MuiToolbar-root.MuiToolbar-regular {
+  background-color: #dedede;
+  border: 1px solid #cdcdcd;
+  padding: 0px 15px;
+  margin-bottom: 2px;
+}
+
+.Layout-content-4 .MuiToolbar-root.MuiToolbar-regular>.MuiToolbar-root.MuiToolbar-regular {
+  background-color: #dedede;
+  border: 0px solid #cdcdcd;
+  padding: 16px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.filters {
+  margin-top: 20px;
+}
+
+.filters>div {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-action {
+  text-align: center;
+}
+
+.main-logo {
+  height: 30px;
+}
+
+.MuiDrawer-docked {
+  /* min-height: 100vh; */
+}
+
+.create-page {
+  padding: 0px 24px;
+}
+
+.list-page {
+  padding: 0px 4px;
+}
+
+.list-page img {
+  max-height: 60px;
+}
+
+.edit-page {
+  padding: 0px 24px;
+}
+
+.MuiDrawer-root .edit-page {
+  padding: 0px;
+}
+
+.MuiDrawer-root .create-page {
+  padding: 0px;
+}
+
+.logourl>div>div {
+  background-color: #efefef;
+  border: 1px solid #ccc;
+}
+
+.ra-rich-text-input .outlined .ql-editor {
+  min-height: 150px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
+  transform: translate(12px -5px) scale(0.75) !important;
+}
+
+.full-screen-loading {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #efefef;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.full-screen-loading>div {
+  margin: 5px 0px;
+}
+
+.test-not-allowed {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #efefef;
+  z-index: 9990;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.candidate-search-parent {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.candidate-search-parent .MuiInputLabel-outlined {
+  transform: translate(14px 12px) scale(1);
+}
+
+.candidate-search-parent .MuiOutlinedInput-input {
+  padding: 9.5px 14px;
+}
+
+.candidate-search-parent button {
+  margin-left: 20px;
+}
+
+.load-more-btn {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: blue;
+  display: flex;
+  width: 120px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid #000000;
+}
+
+.not-allowed-message {
+  font-size: 26px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.employee-promotion-field-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.employee-promotion-field-parent>div {
+  width: 48%;
+}
+
+.item-header {
+  display: flex;
+}
+
+.item-parent {}
+
+.item-header {
+  background-color: #eee;
+}
+
+.item-caption {
+  padding-left: 15px;
+}
+
+.right-option {
+  padding-left: 15px;
+}
+
+.list-page>.MuiToolbar-root.MuiToolbar-regular {
+  /* flex-direction: column-reverse; */
+}
+
+.column-empCode span {
+  display: block;
+  width: 65px;
+}
+
+.list-page .MuiTableCell-sizeSmall {
+  padding: 6px 10px 6px 10px;
+}
+
+.MuiTableCell-sizeSmall {
+  padding: 6px 10px 6px 10px;
+}
+
+.list-page .MuiTableCell-sizeSmall.MuiTableCell-paddingCheckbox {
+  padding: 0px 9px 0 9px;
+}
+
+.employee-list-report {
+  padding: 20px;
+}
+
+.employee-list-report .filters {
+  margin: 10px 20px;
+}
+
+.report-data-table {
+  border: 1px solid #aaa;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiTableHead-root tr th {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.list-page>.MuiToolbar-root {
+  margin-bottom: 1px;
+  border: 1px solid #aaa;
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+
+.list-page>.MuiToolbar-root {
+  margin-bottom: 5px;
+  border: 1px solid #aaa;
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+
+.MuiDrawer-root {
+  /* background: #000; */
+  height: calc(100vh - 48px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.MuiToolbar-dense {
+  min-height: 56px;
+}
+
+.MuiToolbar-dense {
+  min-height: 56px;
+}
+
+/* .layout > div > main > div:nth-child(2){
+    background-color: #aa0000;
+} */
+
+.layout>div>main>div:nth-child(2) {
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  padding: 0px;
+  padding-right: 2px;
+  padding-left: 5px;
+  width: 100vh;
+}
+
+.layout>div>main>div:nth-child(2)::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.layout>div>main>div:nth-child(2)::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.layout>div>main>div:nth-child(2) {
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  padding: 0px;
+  padding-right: 2px;
+  padding-left: 5px;
+  width: 100vh;
+}
+
+.layout>div>main>div:nth-child(2)::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.layout>div>main>div:nth-child(2)::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.MuiDrawer-root::-webkit-scrollbar {
+  width: 8px;
+}
+
+.MuiDrawer-root::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.MuiDrawer-root .MuiMenuItem-root {
+  color: #fff;
+  font-size: 13px;
+}
+
+.MuiDrawer-root .MuiListItemIcon-root {
+  color: #fff;
+}
+
+.MuiDrawer-root .MuiTypography-colorTextSecondary {
+  color: #fff;
+}
+
+.list-page .MuiTableSortLabel-root:hover {
+  color: #fff;
+}
+
+#root .layout .MuiTablePagination-toolbar {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+#root .layout .MuiTablePagination-toolbar .MuiSelect-icon {
+  color: #fff;
+}
+
+#root .layout .MuiTablePagination-toolbar .MuiButton-textPrimary {
+  color: #fff;
+}
+
+.filters-input {
+  display: flex;
+}
+
+.filters-input div {
+  margin-right: 30px;
+}
+
+/* .list-page .MuiCard-root {
+  overflow-x: auto!important;
+} */
+
+.list-page .MuiCard-root::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.list-page .MuiCard-root::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.list-page .MuiCard-root::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list-page .MuiCard-root::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.MuiDrawer-root.MuiDrawer-modal {
+  background-color: unset;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input::before {
+  content: 'Select Document';
+  display: inline-block;
+  background: linear-gradient(top #f9f9f9 #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+  border-color: black;
+}
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top #e3e3e3 #f9f9f9);
+}
+
+.upload-document {
+  cursor: pointer;
+  font-size: 11px;
+  background-color: #999;
+  padding: 6px;
+  color: #fff;
+  text-align: center;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile+label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+  background-color: #dedede;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+.inputfile:focus+label .inputfile+label:hover {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.inputfile+label {
+  cursor: pointer;
+  /* "hand" cursor */
+}
+
+.inputfile:focus+label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile+label * {
+  pointer-events: none;
+}
+
+.list-page .MuiTableCell-sizeSmall {
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.list-page .main {
+  height: calc(100vh - 150px);
+}
+
+.list-page .content {
+  overflow-x: auto !important;
+}
+
+p.MuiFormHelperText-contained {
+  display: none;
+}
+
+.edit-page .MuiTab-root {
+  min-width: 85px;
+  padding: 6px 10px;
+  background-color: #bbb;
+  border: 1px solid #999;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-right: 2px;
+}
+
+/* .MuiOutlinedInput-inputMarginDense{
+  padding-bottom:6px!important;
+} */
+
+MuiFormControl-marginDense {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.ra-input {
+  margin: 0px 0px;
+}
+
+.MuiTabs-root {
+  min-height: 40px !important;
+}
+
+.edit-page .MuiTab-root {
+  min-height: 40px;
+}
+
+.filter-block .MuiFormControl-marginDense {
+  margin: 0px;
+}
+
+.list-page .MuiTableCell-sizeSmall {
+  padding: 3px 6px;
+  white-space: nowrap;
+}
+
+.filter-block {
+  min-height: 60px !important;
+}
+
+.list-page .MuiToolbar-regular {
+  padding-top: 0px;
+}
+
+/* div[class^="RaBulkActionsToolbar"] { 
+  display:none;
+}  */
+
+.list-page .content .MuiToolbar-regular {
+  padding-top: 0px;
+}
+
+.filter-block .MuiOutlinedInput-inputMarginDense {
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.MuiTableCell-root {
+  border: 1px solid #ccc;
+}
+
+p.MuiFormHelperText-root {
+  display: none;
+}
+
+/* .filter-block .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  transform: translate(14px 8px) scale(1);
+} */
+
+.edit-page .ra-input input[type=number] {
+  text-align: right;
+}
+
+.config-setup-parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.salarySummary {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  border-bottom: 1px solid lightgray;
+
+
+}
+
+.salaryContainer {
+  display: flex;
+  width: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.salaryLabel {
+  font-weight: bold;
+  font-size: 12px;
+  width: 60%;
+  text-decoration: underline;
+}
+
+.salaryValue {
+
+  width: 40%;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+  /* /font-size: 20px; */
+  color: darkgreen;
+
+}
+
+.heading h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: small;
+}
+
+.edit-button {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #02384d;
+  font-weight: bold;
+}
+
+.input-divider {
+  height: 1px;
+  width: 100%;
+}
+
+.insurer-address {
+  display: inline-block;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #eee;
+  padding: 5px;
+}
+
+.hospital-address {
+  display: inline-block;
+  margin-left: 1%;
+  margin-bottom: 0px;
+  font-weight: bold;
+  background-color: #eee;
+  padding: 5px;
+  width: 100%;
+  font-size: 13px;
+}
+
+div[role='tooltip'] {
+  z-index: 1400;
+}
+
+.secondary-action-btn {
+  position: absolute;
+  right: 50px;
+  margin-top: -40px;
+}
+
+.section-heading {
+  margin-top: 30px;
+}
+
+.address-field {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.delete-column {
+  max-width: 50px;
+  width: 50px;
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.MuiTableCell-sizeSmall {
+  padding: 6px 6px 6px 6px !important;
+}
+
+.simple-form {
+  padding-bottom: 90px;
+}
+
+.payment-create-form {
+  padding-bottom: 0px;
+}
+
+.fopayment-field-parent>div {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.billing-info-fields {
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 0px;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 5px;
+  width: 100%;
+  font-size: 13px;
+}
+
+.billing-info-fields>div {
+  width: 32%;
+  margin-left: 1%;
+}
+
+.documents-action-btn {
+  margin-top: -40px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.tabs-parent header {
+  width: 100%;
+}
+
+.tabs-parent .MuiAppBar-colorPrimary {
+  color: #000;
+  background-color: unset;
+}
+
+.tab-panel-fullwidth {
+  width: 100% !important;
+}
+
+.tab-panel-fullwidth>div>p>div {
+  width: 47%;
+  flex-grow: unset;
+}
+
+.tab-panel-fullwidth .alotment-field-parent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tab-panel-fullwidth .alotment-field-parent>div {
+  width: 47%;
+  flex-grow: unset;
+}
+
+.tab-panel-fullwidth>div>p>div.fo-payment-remarks .tab-panel-fullwidth>div>p>div.fo-payment-raised {
+  width: 100%;
+}
+
+.tab-panel-fullwidth>div>p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashboard-filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.dashboard-filters-container>div {
+  margin-right: 10px;
+
+}
+.drawerPaper {
+    z-index: 100;
+    margin-top: 0;
+    width: 90%;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+.existing-image{
+  height:250px;
+  width: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

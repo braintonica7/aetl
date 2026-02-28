@@ -1,0 +1,256 @@
+/* NotificationSend V2 - Material Design Flat Style */
+/* All styles scoped to .notification-send-v2 to avoid affecting admin defaults */
+
+.notification-send-v2 {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Subtle Fade In Animation */
+.notification-send-v2 .card-entrance {
+  animation: subtleFadeIn 0.3s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes subtleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Material Elevation on Hover */
+.notification-send-v2 .hover-lift {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notification-send-v2 .hover-lift:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Smooth Material Transitions */
+.notification-send-v2 .smooth-transition {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Button Ripple Effect Enhancement */
+.notification-send-v2 .MuiButton-root {
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Input Focus State */
+.notification-send-v2 .MuiOutlinedInput-root.Mui-focused {
+  transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Chip Subtle Interaction */
+.notification-send-v2 .MuiChip-root {
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Alert Slide In */
+.notification-send-v2 .slide-in-up {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Success Scale Animation */
+.notification-send-v2 .scale-in {
+  animation: scaleIn 0.25s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Material Design Dividers */
+.notification-send-v2 .MuiDivider-root {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Card Content Spacing */
+.notification-send-v2 .MuiCardContent-root {
+  padding: 24px;
+}
+
+/* Typography Consistency */
+.notification-send-v2 .MuiTypography-h3 {
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.notification-send-v2 .MuiTypography-h5 {
+  font-weight: 500;
+  letter-spacing: 0.0075em;
+}
+
+/* Icon Alignment */
+.notification-send-v2 .MuiSvgIcon-root {
+  vertical-align: middle;
+}
+
+/* Paper Elevation Consistency */
+.notification-send-v2 .MuiPaper-elevation3 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Field Spacing */
+.notification-send-v2 .MuiTextField-root,
+.notification-send-v2 .MuiFormControl-root {
+  margin-bottom: 0;
+}
+
+/* Switch Material Style */
+.notification-send-v2 .MuiSwitch-root {
+  margin-left: 8px;
+}
+
+/* Alert Material Style */
+.notification-send-v2 .MuiAlert-root {
+  border-radius: 4px;
+}
+
+/* Snackbar Position */
+.notification-send-v2 .MuiSnackbar-root {
+  z-index: 1400;
+}
+
+/* Loading Spinner */
+.notification-send-v2 .MuiCircularProgress-root {
+  color: inherit;
+}
+
+/* Autocomplete Dropdown */
+.notification-send-v2 .MuiAutocomplete-popper {
+  z-index: 1300;
+}
+
+/* Select Menu */
+.notification-send-v2 .MuiSelect-select {
+  padding: 16.5px 14px;
+}
+
+/* Menu Item Hover */
+.notification-send-v2 .MuiMenuItem-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Disabled State */
+.notification-send-v2 .Mui-disabled {
+  opacity: 0.6;
+}
+
+/* Focus Visible Outline */
+.notification-send-v2 .MuiButton-root.Mui-focusVisible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+
+/* Card Header Spacing */
+.notification-send-v2 .MuiBox-root + .MuiCardContent-root {
+  padding-top: 24px;
+}
+
+/* Stack Spacing Consistency */
+.notification-send-v2 .MuiStack-root {
+  gap: inherit;
+}
+
+/* Badge Material Style */
+.notification-send-v2 .MuiBadge-root {
+  vertical-align: middle;
+}
+
+/* Tooltip Material Style */
+.notification-send-v2 .MuiTooltip-tooltip {
+  font-size: 0.75rem;
+  background-color: rgba(97, 97, 97, 0.9);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .notification-send-v2 .MuiCardContent-root {
+    padding: 16px;
+  }
+  
+  .notification-send-v2 .MuiTypography-h3 {
+    font-size: 2rem;
+  }
+  
+  .notification-send-v2 .MuiTypography-h5 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .notification-send-v2 .MuiBox-root[sx] {
+    padding: 16px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .notification-send-v2 .MuiButton-root,
+  .notification-send-v2 .MuiIconButton-root {
+    display: none;
+  }
+  
+  .notification-send-v2 .MuiPaper-root {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .notification-send-v2 *,
+  .notification-send-v2 *::before,
+  .notification-send-v2 *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .notification-send-v2 .MuiOutlinedInput-root {
+    border-width: 2px;
+  }
+  
+  .notification-send-v2 .MuiButton-root {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Dark Theme Support */
+@media (prefers-color-scheme: dark) {
+  .notification-send-v2 .MuiPaper-root {
+    background-color: #1e1e1e;
+  }
+  
+  .notification-send-v2 .MuiDivider-root {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+}
