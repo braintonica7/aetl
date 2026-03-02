@@ -27,28 +27,14 @@ import exam from './screens/exam';
 import chapter from './screens/chapter';
 import topic from './screens/topic';
 import question from './screens/question';
-import questionAnalysis from './screens/question-analysis';
 import studentPerformance from './screens/student-performance';
 import UserQuizStatistics from './screens/reports';
-import flaggedQuestions from './screens/flagged-questions';
 import quiz from './screens/quiz';
-import wiziQuiz from './screens/wizi-quiz';
-import wiziQuestion from './screens/wizi-question';
-import wiziQuizUser from './screens/wizi-quiz-user';
-import { WiziQuizQuestionManage } from './screens/wizi-quiz-question';
 import NotificationSend from './screens/notifications/NotificationSend';
-import { SolutionGeneratorScreen } from './screens/solution-generator';
-import subscriptionPlans from './screens/subscription-plans';
-import userSubscriptions from './screens/user-subscriptions';
-import SubscriptionAnalytics from './screens/subscription-analytics';
-import subscriptionTransactions from './screens/subscription-transactions';
-import subscriptionFeatures from './screens/subscription-features';
-import PlanFeaturesEdit from './screens/plan-features/PlanFeaturesEdit';
 import { MathJaxProvider } from './components/MathJaxRenderer';
 import { QuizQuestionsList } from './screens/quiz/QuizQuestionsList';
 import NotificationContextManager from './screens/notification-context';
 import notificationPreview from './screens/notification-preview';
-import BatchNotificationSender from './screens/batch-notification-sender/BatchNotificationSender';
 
 const i18nProvider = polyglotI18nProvider(
     locale => {
@@ -104,26 +90,12 @@ const App = () => {
             <Resource name="topic" {...topic} />
             <Resource name="question" {...question} />
             <Resource name="quiz" {...quiz} />
-            <Resource name="wizi-quiz" {...wiziQuiz} />
-            <Resource name="wizi-question" {...wiziQuestion} />
-            <Resource name="wizi-quiz-user" {...wiziQuizUser} />
-            <Resource name="question-analysis" {...questionAnalysis} />
             <Resource name="student-performance" {...studentPerformance} />
-            <Resource name="flagged-questions" {...flaggedQuestions} />
-            <Resource name="subscription-plans" {...subscriptionPlans} />
-            <Resource name="user-subscriptions" {...userSubscriptions} />
-            <Resource name="subscription-transactions" {...subscriptionTransactions} />
-            <Resource name="subscription-features" {...subscriptionFeatures} />
             <Resource name="notification-preview" {...notificationPreview} />
             <CustomRoutes>
                 <Route path="/reports/user-quiz-statistics" element={<UserQuizStatistics />} />
                 <Route path="/notifications/send" element={<NotificationSend />} />
                 <Route path="/notifications/context-manager" element={<NotificationContextManager />} />
-                <Route path="/notifications/batch-sender" element={<BatchNotificationSender />} />
-                <Route path="/ai/solution-generator" element={<SolutionGeneratorScreen />} />
-                <Route path="/subscription-analytics" element={<SubscriptionAnalytics />} />
-                <Route path="/plan-features/:planId" element={<PlanFeaturesEdit />} />
-                <Route path="/wizi-quiz-questions" element={<WiziQuizQuestionManage />} />
                 <Route path="/quiz/:quizId/questions" element={<QuizQuestionsList />} />
             </CustomRoutes>
             
